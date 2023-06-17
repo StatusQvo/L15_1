@@ -48,10 +48,9 @@ class Castles {
   }
 }
 
-const attacker = new Castles(10, 55, 60, 3)
+const attacker = new Castles(10, 46, 60, 3)
 const defender = new Castles(33, 50, 40, 10)
 attacker.attack(defender)
-
 attacker.improveArmy()
 attacker.attack(defender)
 attacker.improveArmy()
